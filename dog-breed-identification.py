@@ -19,8 +19,8 @@ encoder = LabelEncoder()
 #read the csv file
 df_labels = pd.read_csv("labels.csv")
 #store training and testing images folder location
-train_file = 'D:/Python/dog-breed-identification/train/'
-test_file = 'D:/Python/dog-breed-identification/test/'
+train_file = 'train/'
+test_file = 'test/'
 
 #check the total number of unique breed in our dataset file
 print("Total number of unique Dog Breeds :",len(df_labels.breed.unique()))
